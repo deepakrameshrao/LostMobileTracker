@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <EditText
+		android:id="@+id/VerifyPIN"
+		android:layout_marginTop="10dip"
+		android:password="true"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:hint="Enter lock PIN">
+	</EditText>
+	
+	<Button
+    	android:id="@+id/verifydone"
+    	android:text="Done"
+    	android:layout_gravity="center"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
